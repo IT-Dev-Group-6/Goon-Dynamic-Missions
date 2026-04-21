@@ -1,0 +1,39 @@
+{
+  "era": "cold_war",
+  "red_side": {
+    "country": "Russia",
+    "vehicles": [
+      { "name": "T-90", "pydcs_id": "T_90" },
+      { "name": "T-80B", "pydcs_id": "T_80B" },
+      { "name": "T-72B", "pydcs_id": "T_72B" },
+      { "name": "BMP-3", "pydcs_id": "BMP_3" },
+      { "name": "BMP-2", "pydcs_id": "BMP_2" }
+    ],
+    "aircraft": [
+      { "name": "MiG-29", "pydcs_id": "MiG_29" },
+      { "name": "MiG-27", "pydcs_id": "MiG_27" },
+      { "name": "Su-27", "pydcs_id": "Su_27" },
+      { "name": "Mi-24", "pydcs_id": "Mi_24" }
+    ]
+  },
+  "blue_side": {
+    "country": "USA",
+    "vehicles": [
+      { "name": "M1 Abrams", "pydcs_id": "M_1_Abrams" },
+      { "name": "M1128 Stryker", "pydcs_id": "M1128_Stryker_MGS" },
+      { "name": "HMMWV TOW", "pydcs_id": "M1045_HMMWV_TOW" },
+      { "name": "Bradley M2", "pydcs_id": "M2_Bradley" }
+    ],
+    "aircraft": [
+      { "name": "F-16C", "pydcs_id": "F_16C_50" },
+      { "name": "A-10A", "pydcs_id": "A_10A" },
+      { "name": "F-4E", "pydcs_id": "F_4E" },
+      { "name": "UH-1H", "pydcs_id": "UH_1H" }
+    ]
+  },
+  "units_per_zone": {
+    "min": 20,
+    "max": 30
+  },
+  "notes": "Cold War era unit templates for 1970-1990 equipment"
+}

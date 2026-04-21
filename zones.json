@@ -1,0 +1,37 @@
+{
+  "grid": {
+    "origin_x": 0,
+    "origin_y": 0,
+    "cell_size_m": 40000,
+    "rows": 5,
+    "cols": 5
+  },
+  "zones": {
+    "Z_0_0": { "owner": "red", "included": true },
+    "Z_0_1": { "owner": "red", "included": true },
+    "Z_0_2": { "owner": "contested", "included": false },
+    "Z_0_3": { "owner": "blue", "included": false },
+    "Z_0_4": { "owner": "blue", "included": false },
+    "Z_1_0": { "owner": "red", "included": true },
+    "Z_1_1": { "owner": "red", "included": true },
+    "Z_1_2": { "owner": "contested", "included": true },
+    "Z_1_3": { "owner": "blue", "included": false },
+    "Z_1_4": { "owner": "blue", "included": false },
+    "Z_2_0": { "owner": "red", "included": true },
+    "Z_2_1": { "owner": "contested", "included": true },
+    "Z_2_2": { "owner": "contested", "included": true },
+    "Z_2_3": { "owner": "contested", "included": false },
+    "Z_2_4": { "owner": "blue", "included": false },
+    "Z_3_0": { "owner": "red", "included": false },
+    "Z_3_1": { "owner": "contested", "included": false },
+    "Z_3_2": { "owner": "contested", "included": false },
+    "Z_3_3": { "owner": "blue", "included": false },
+    "Z_3_4": { "owner": "blue", "included": false },
+    "Z_4_0": { "owner": "red", "included": false },
+    "Z_4_1": { "owner": "red", "included": false },
+    "Z_4_2": { "owner": "contested", "included": false },
+    "Z_4_3": { "owner": "blue", "included": false },
+    "Z_4_4": { "owner": "blue", "included": false }
+  },
+  "notes": "Frontline determined by 'owner' and 'included' status. Auto-select 3 active zones near frontline."
+}

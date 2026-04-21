@@ -1,0 +1,10 @@
+{
+  "era": "cold_war",
+  "terrain": "caucasus",
+  "description": "Dynamic Cold War Mission - 8-man squad",
+  "squad_size": 8,
+  "active_zones": 3,
+  "spawn_cap": 40,
+  "proximity_radius_km": 40,
+  "notes": "Select 'cold_war' or 'modern' for era. Lua stack will be auto-injected."
+}

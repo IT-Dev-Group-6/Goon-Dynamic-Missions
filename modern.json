@@ -1,0 +1,38 @@
+{
+  "era": "modern",
+  "red_side": {
+    "country": "Russia",
+    "vehicles": [
+      { "name": "T-90", "pydcs_id": "T_90" },
+      { "name": "T-80B", "pydcs_id": "T_80B" },
+      { "name": "BMP-3", "pydcs_id": "BMP_3" },
+      { "name": "Tigr", "pydcs_id": "Tigr_M" }
+    ],
+    "aircraft": [
+      { "name": "Su-35S", "pydcs_id": "Su_35" },
+      { "name": "Su-34", "pydcs_id": "Su_34" },
+      { "name": "Ka-52", "pydcs_id": "Ka_52" },
+      { "name": "Mi-28N", "pydcs_id": "Mi_28" }
+    ]
+  },
+  "blue_side": {
+    "country": "USA",
+    "vehicles": [
+      { "name": "M1A2 Abrams", "pydcs_id": "M_1_Abrams" },
+      { "name": "M1128 Stryker", "pydcs_id": "M1128_Stryker_MGS" },
+      { "name": "HMMWV", "pydcs_id": "M1045_HMMWV_TOW" },
+      { "name": "Bradley M2", "pydcs_id": "M2_Bradley" }
+    ],
+    "aircraft": [
+      { "name": "F-16C", "pydcs_id": "F_16C_50" },
+      { "name": "F-15C", "pydcs_id": "F_15C" },
+      { "name": "AH-64D", "pydcs_id": "AH_64D" },
+      { "name": "UH-60A", "pydcs_id": "UH_60A" }
+    ]
+  },
+  "units_per_zone": {
+    "min": 20,
+    "max": 30
+  },
+  "notes": "Modern era unit templates for 2010+ equipment"
+}
